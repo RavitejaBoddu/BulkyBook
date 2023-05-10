@@ -17,20 +17,84 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\e9d52b53-fc41-484a-87e8-0a4559522703.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\e9d52b53-fc41-484a-87e8-0a4559522703.jpg"
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
     },
     {
-      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\f1f1c35f-568f-4bd6-8548-abe67a0c0003.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\f1f1c35f-568f-4bd6-8548-abe67a0c0003.jpg"
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\order_success.png",
+      "PackagePath": "staticwebassets\\images\\order_success.png"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\payment_success.png",
+      "PackagePath": "staticwebassets\\images\\payment_success.png"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\05e042e1-420a-478f-b710-a050759921d9.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\05e042e1-420a-478f-b710-a050759921d9.jfif"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\42f721a9-763c-450e-8a01-536812ad248f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\42f721a9-763c-450e-8a01-536812ad248f.jpg"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\5608f3e2-6a0b-44ea-89b1-07553332fc3c.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\5608f3e2-6a0b-44ea-89b1-07553332fc3c.jfif"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\603b336e-70d7-41f1-bb96-2073e7a281ee.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\603b336e-70d7-41f1-bb96-2073e7a281ee.jfif"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\765e2bd8-16d2-4296-a59a-178b4d433a3b.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\765e2bd8-16d2-4296-a59a-178b4d433a3b.jfif"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\76a9189a-780a-4176-b031-465d58c6eb91.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\76a9189a-780a-4176-b031-465d58c6eb91.jfif"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\dafd049f-f380-4a6d-b4da-9c749b31be3a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dafd049f-f380-4a6d-b4da-9c749b31be3a.jpg"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\edebbec5-c2c5-47bc-963e-2d8b812472dd.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\edebbec5-c2c5-47bc-963e-2d8b812472dd.jfif"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
     },
     {
       "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\qr.js",
+      "PackagePath": "staticwebassets\\js\\qr.js"
+    },
+    {
       "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\.gitignore"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\LICENSE",
+      "PackagePath": "staticwebassets\\lib"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\README.md",
+      "PackagePath": "staticwebassets\\lib\\README.md"
     },
     {
       "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -213,6 +277,22 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\bower.json"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\index-svg.html",
+      "PackagePath": "staticwebassets\\lib\\index-svg.html"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\index.html",
+      "PackagePath": "staticwebassets\\lib\\index.html"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\index.svg",
+      "PackagePath": "staticwebassets\\lib\\index.svg"
+    },
+    {
       "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -245,6 +325,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.min.js"
+    },
+    {
       "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
@@ -259,6 +343,14 @@
     {
       "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\qrcode.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode.js"
+    },
+    {
+      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BulkyBookWeb.Microsoft.AspNetCore.StaticWebAssets.props",
