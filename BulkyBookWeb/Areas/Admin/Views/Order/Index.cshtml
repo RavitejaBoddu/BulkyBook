@@ -31,12 +31,17 @@
 
 }
 
-<div class="p-3">
-    <div class="d-flex justify-content-between pt-4">
-        <div class="p-2">
-            <h2 class="text-primary">Order List</h2>
+<div class="card my-4" style="overflow:auto; width:100%">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Order List</h2>
+            </div>
         </div>
-        <div class="p-2">
+    </div>
+    <div class="card-body">
+        <div class="d-flex justify-content-between pt-2">
+            <span></span>
             <ul class="list-group list-group-horizontal-sm">
                 <a style="text-decoration:none;" asp-controller="Order"
                    asp-action="Index" asp-route-status="inprocess">
@@ -64,10 +69,9 @@
                 </a>
             </ul>
         </div>
-    </div>
-    <br /><br />
+    </div><hr />
 
-    <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+    <table id="tblData" class="table table-bordered table-striped" style="width:100%;">
         <thead>
             <tr>
                 <th>ID</th>

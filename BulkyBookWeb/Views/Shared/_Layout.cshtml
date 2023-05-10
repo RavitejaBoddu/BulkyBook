@@ -19,19 +19,19 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BulkyBook</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
                                 Home
                             </a>
                         </li>
                         @if (User.IsInRole(SD.Role_Admin))
                         {
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown" @(ViewBag.Current == "Admin" ? "active" : "")>
                                 <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Content Management</a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
@@ -44,11 +44,11 @@
                                 </div>
                             </li>
                         }
-                        <li class="nav-item">
+                        <li class="nav-item @(ViewBag.Current == "Order" ? "active" : "")">
                             <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Manage Orders</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                        <li class="nav-item @(ViewBag.Current == "Cart" ? "active" : "")">
+                            <a class="nav-link" style="position:relative;" asp-area="Customer" asp-controller="Cart" asp-action="Index">
                                 @await Component.InvokeAsync("ShoppingCart")
                             </a>
                         </li>
@@ -58,12 +58,14 @@
             </div>
         </nav>
     </header>
-    <div class="main-container">
+    <div class="container" style="height: 89.9vh;width:100%; overflow:auto; ">
+        <main role="main" class="pb-3">
             <partial name="_Notification" />
             @RenderBody()
+        </div>
     </div>
 
-    <footer class="footer text-muted bg-dark" style="line-height:24px !important;">
+    <footer class="footer text-muted bg-dark" style="line-height:24px !important; position:absolute; bottom:0;left:0;right:0;">
         <div class="container">
             &copy; 2023 - BulkyBookWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>

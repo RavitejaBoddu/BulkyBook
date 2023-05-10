@@ -81,10 +81,6 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\user.js",
-      "PackagePath": "staticwebassets\\js\\user.js"
-    },
-    {
       "Id": "D:\\dotnet\\playground\\BulkyBook\\BulkyBookWeb\\wwwroot\\lib\\.gitignore",
       "PackagePath": "staticwebassets\\lib\\.gitignore"
     },
